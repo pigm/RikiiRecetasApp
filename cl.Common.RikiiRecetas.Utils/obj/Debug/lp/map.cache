@@ -1,0 +1,10 @@
+cl.Common.RikiiRecetas.Models
+Newtonsoft.Json
+Plugin.Connectivity.Abstractions
+Plugin.Connectivity
+Realm.DataBinding
+Realm
+Realm.Sync
+Remotion.Linq
+System.Runtime.CompilerServices.Unsafe
+System.Runtime

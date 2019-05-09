@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linear_lista_recetas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/app_bar" />
+        <LinearLayout
+            android:id="@+id/llInstruccionesListaRecetas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblTituloPais"
+                android:text="Recetas típicas de mi Pais"
+                android:textSize="20dp"
+                android:textColor="#666666"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:id="@+id/lblInstruccionesListaRecetas"
+                android:text="Selecciona una y a cocinar…"
+                android:textSize="17.5dp"
+                android:textColor="#666666"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/dividerInstrucciones"
+            android:background="#E0E0E0"/>
+        
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:lottie_fileName="lottie.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true" />
+          
+        <android.support.v7.widget.RecyclerView
+            android:visibility="gone"
+            android:id="@+id/rvListaRecetas"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="25dp" />
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"            
+            android:gravity="center"
+            android:id="@+id/llSinData">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgSinData"
+                android:src="@drawable/ic_sindata"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"        
+                android:gravity="center"
+                android:id="@+id/lblTituloSinRecetas"
+                android:text="Datos no encontrados"
+                android:textSize="22dp"
+                android:textColor="#D2D5D7"/> 
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"        
+                android:gravity="center"
+                android:id="@+id/lblSinRecetas"
+                android:text="En estos momentos no contamos con recetas disponibles para este pais."
+                android:textSize="18dp"
+                android:textColor="#D2D5D7"/> 
+        </LinearLayout>        
+    </LinearLayout>          
+</LinearLayout>

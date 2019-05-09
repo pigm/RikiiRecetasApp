@@ -1,0 +1,4 @@
+cl.Common.RikiiRecetas.Models
+cl.Common.RikiiRecetas.Utils
+Newtonsoft.Json
+System.Runtime

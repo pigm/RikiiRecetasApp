@@ -1,0 +1,437 @@
+﻿[
+  {
+    "id": 1,
+    "location": {
+      "city": "Berlín",
+      "address": "Neptunbrunnen",
+      "position": {
+        "coordinates": [
+          13.406856,
+          52.519555
+        ]
+      }
+    },
+    "format": "Europa",
+    "name": "Alemania"
+  },
+  {
+    "id": 2,
+    "location": {
+      "city": "Riad",
+      "address": "Al Urubah Rd, As Sulimaniyah",
+      "position": {
+        "coordinates": [
+          46.675134,
+          24.713492
+        ]
+      }
+    },
+    "format": "Asia",
+    "name": "Arabia Saudita"
+  },
+  {
+    "id": 3,
+    "location": {
+      "city": "Canberra",
+      "address": "Vernon Circle",
+      "position": {
+        "coordinates": [
+          149.128813,
+          -35.280980
+        ]
+      }
+    },
+    "format": "Oceania",
+    "name": "Australia"
+  },
+  {
+    "id": 4,
+    "location": {
+      "city": "Brasilia",
+      "address": "Brasilia",
+      "position": {
+        "coordinates": [
+          -47.882124,
+          -15.793972
+        ]
+      }
+    },
+    "format": "Sudamérica",
+    "name": "Brasil"
+  },
+  {
+    "id": 5,
+    "location": {
+      "city": "Ottawa",
+      "address": "World Exchange Plaza",
+      "position": {
+        "coordinates": [
+          -75.697979,
+          45.421252
+        ]
+      }
+    },
+    "format": "Norteamérica",
+    "name": "Canadá"
+  },
+  {
+    "id": 6,
+    "location": {
+      "city": "Santiago",
+      "address": "Plaza de la Ciudadanía",
+      "position": {
+        "coordinates": [
+          -70.653605,
+          -33.444082
+        ]
+      }
+    },
+    "format": "Sudamérica",
+    "name": "Chile"
+  },
+  {
+    "id": 7,
+    "location": {
+      "city": "Pekín",
+      "address": "Dong Chang An Jie",
+      "position": {
+        "coordinates": [
+          116.407066,
+          39.907861
+        ]
+      }
+    },
+    "format": "Asia",
+    "name": "China"
+  },
+  {
+    "id": 8,
+    "location": {
+      "city": "Bogotá",
+      "address": "Accenture",
+      "position": {
+        "coordinates": [
+          -74.072113,
+          4.711051
+        ]
+      }
+    },
+    "format": "Sudamérica",
+    "name": "Colombia"
+  },
+  {
+    "id": 9,
+    "location": {
+      "city": "La Habana",
+      "address": "La Habana Vieja",
+      "position": {
+        "coordinates": [
+          -82.365620,
+          23.115633
+        ]
+      }
+    },
+    "format": "Centroamérica Caribe",
+    "name": "Cuba"
+  },
+  {
+    "id": 10,
+    "location": {
+      "city": "El Cairo",
+      "address": "Giza",
+      "position": {
+        "coordinates": [
+          31.133104,
+          29.976970
+        ]
+      }
+    },
+    "format": "África",
+    "name": "Egipto"
+  },
+  {
+    "id": 11,
+    "location": {
+      "city": "Washington D. C.",
+      "address": "The White House",
+      "position": {
+        "coordinates": [
+          -77.036507,
+          38.897493
+        ]
+      }
+    },
+    "format": "Norteamérica",
+    "name": "Estados Unidos"
+  },
+  {
+    "id": 12,
+    "location": {
+      "city": "Paris",
+      "address": "Torre Eiffel",
+      "position": {
+        "coordinates": [
+          2.294329,
+          48.858409
+        ]
+      }
+    },
+    "format": "Europa",
+    "name": "Francia"
+  },
+  {
+    "id": 13,
+    "location": {
+      "city": "Atenas",
+      "address": "Platia Omonias",
+      "position": {
+        "coordinates": [
+          23.728052,
+          37.983973
+        ]
+      }
+    },
+    "format": "Europa",
+    "name": "Grecia"
+  },
+  {
+    "id": 14,
+    "location": {
+      "city": "Nueva Delhi",
+      "address": "Taj Mahal",
+      "position": {
+        "coordinates": [
+          78.042121,
+          27.174430
+        ]
+      }
+    },
+    "format": "Asia",
+    "name": "India"
+  },
+  {
+    "id": 15,
+    "location": {
+      "city": "Roma",
+      "address": "Coliseo de Roma",
+      "position": {
+        "coordinates": [
+          12.492396,
+          41.890154
+        ]
+      }
+    },
+    "format": "Europa",
+    "name": "Italia"
+  },
+  {
+    "id": 16,
+    "location": {
+      "city": "Tokio",
+      "address": "Yamabukicho",
+      "position": {
+        "coordinates": [
+          139.731500,
+          35.708802
+        ]
+      }
+    },
+    "format": "Asia",
+    "name": "Japon"
+  },
+  {
+    "id": 17,
+    "location": {
+      "city": "Seúl",
+      "address": "Seoul Plaza",
+      "position": {
+        "coordinates": [
+          126.977969,
+          37.565549
+        ]
+      }
+    },
+    "format": "Asia",
+    "name": "Korea"
+  },
+  {
+    "id": 18,
+    "location": {
+      "city": "Ciudad de México",
+      "address": "Zócalo, Plaza de la Constitución",
+      "position": {
+        "coordinates": [
+          -99.133102,
+          19.432488
+        ]
+      }
+    },
+    "format": "Norteamérica",
+    "name": "México"
+  },
+  {
+    "id": 19,
+    "location": {
+      "city": "Lima",
+      "address": "Plaza Dos de Mayo Lima",
+      "position": {
+        "coordinates": [
+          -77.042730,
+          -12.046343
+        ]
+      }
+    },
+    "format": "Sudamérica",
+    "name": "Perú"
+  },
+  {
+    "id": 20,
+    "location": {
+      "city": "Lisboa",
+      "address": "Campo Mártires da Pátria",
+      "position": {
+        "coordinates": [
+          -9.139940,
+          38.721784
+        ]
+      }
+    },
+    "format": "Europa",
+    "name": "Portugal"
+  },
+  {
+    "id": 21,
+    "location": {
+      "city": "San Juan",
+      "address": "Puerta de Tierra",
+      "position": {
+        "coordinates": [
+          -66.100977,
+          18.466970
+        ]
+      }
+    },
+    "format": "Centroamérica Caribe",
+    "name": "Puerto rico"
+  },
+  {
+    "id": 22,
+    "location": {
+      "city": "Santo Domingo",
+      "address": "Viejo Arroyo Hondo",
+      "position": {
+        "coordinates": [
+          -69.931796,
+          18.484562
+        ]
+      }
+    },
+    "format": "Centroamérica Caribe",
+    "name": "República dominicana"
+  },
+  {
+    "id": 23,
+    "location": {
+      "city": "Moscú",
+      "address": "Catedral de San Basilio",
+      "position": {
+        "coordinates": [
+          37.622978,
+          55.752580
+        ]
+      }
+    },
+    "format": "Europa",
+    "name": "Rusia"
+  },
+  {
+    "id": 24,
+    "location": {
+      "city": "Madrid",
+      "address": "Estadio Santiago Bernabéu",
+      "position": {
+        "coordinates": [
+          -3.689815,
+          40.453170
+        ]
+      }
+    },
+    "format": "Europa",
+    "name": "España"
+  },
+  {
+    "id": 25,
+    "location": {
+      "city": "Ciudad del Cabo, Pretoria, Bloemfontein",
+      "address": "Foreshore",
+      "position": {
+        "coordinates": [
+          18.454004,
+          -33.918835
+        ]
+      }
+    },
+    "format": "África",
+    "name": "Sudáfrica"
+  },
+  {
+    "id": 26,
+    "location": {
+      "city": "Bangkok",
+      "address": "Mercado flotante Khlong Lad Mayom",
+      "position": {
+        "coordinates": [
+          100.415686,
+          13.761727
+        ]
+      }
+    },
+    "format": "Asia",
+    "name": "Tailandia"
+  },
+  {
+    "id": 27,
+    "location": {
+      "city": "Estambul",
+      "address": "Palacio de Topkapi",
+      "position": {
+        "coordinates": [
+          28.983614,
+          41.011535
+        ]
+      }
+    },
+    "format": "Europa, Asia",
+    "name": "Turquia"
+  },
+  {
+    "id": 28,
+    "location": {
+      "city": "Montevideo",
+      "address": "Estadio centenario",
+      "position": {
+        "coordinates": [
+          -56.152857,
+          -34.894772
+        ]
+      }
+    },
+    "format": "Sudamérica",
+    "name": "Uruguay"
+  },
+  {
+    "id": 29,
+    "location": {
+      "city": "Caracas",
+      "address": "Plaza Tiuna",
+      "position": {
+        "coordinates": [
+          -66.900214,
+          10.481048
+        ]
+      }
+    },
+    "format": "Sudamérica",
+    "name": "Venezuela"
+  }
+]

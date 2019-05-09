@@ -1,0 +1,51 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RikiiRecetas", "RikiiRecetas\RikiiRecetas.csproj", "{032366A4-E9F8-4786-99E2-BB1EA3CD672E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentacion", "01. Presentacion", "{A607B4C9-078C-4401-9BBB-82D9507FA2FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Negocio", "02. Negocio", "{A9BDE9D8-7FD2-4874-933A-ACF737DE6108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Datos", "03. Datos", "{86ACE8D2-248D-441C-942D-92B2B5B63683}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Transversal", "04. Transversal", "{CFDCC7D6-C870-4C8D-9293-AD42C9BC45F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Servicios", "05. Servicios", "{6AF8584B-9B2D-4C06-B2F9-D4BDDCD9EE0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cl.Common.RikiiRecetas.Service", "cl.spaceti.android.Common.RikiiRecetas\cl.Common.RikiiRecetas.Service\cl.Common.RikiiRecetas.Service.csproj", "{62491858-54A2-4A10-B4C1-004FD06D6884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cl.Common.RikiiRecetas.Utils", "cl.Common.RikiiRecetas.Utils\cl.Common.RikiiRecetas.Utils.csproj", "{31C15843-E808-4458-8C77-0CCC4F4CF3FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cl.Common.RikiiRecetas.Models", "cl.Common.RikiiRecetas.Models\cl.Common.RikiiRecetas.Models.csproj", "{B411612F-93E6-4386-9796-2E047FF7B570}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{032366A4-E9F8-4786-99E2-BB1EA3CD672E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032366A4-E9F8-4786-99E2-BB1EA3CD672E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032366A4-E9F8-4786-99E2-BB1EA3CD672E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032366A4-E9F8-4786-99E2-BB1EA3CD672E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62491858-54A2-4A10-B4C1-004FD06D6884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62491858-54A2-4A10-B4C1-004FD06D6884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62491858-54A2-4A10-B4C1-004FD06D6884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62491858-54A2-4A10-B4C1-004FD06D6884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C15843-E808-4458-8C77-0CCC4F4CF3FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C15843-E808-4458-8C77-0CCC4F4CF3FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C15843-E808-4458-8C77-0CCC4F4CF3FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C15843-E808-4458-8C77-0CCC4F4CF3FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B411612F-93E6-4386-9796-2E047FF7B570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B411612F-93E6-4386-9796-2E047FF7B570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B411612F-93E6-4386-9796-2E047FF7B570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B411612F-93E6-4386-9796-2E047FF7B570}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{032366A4-E9F8-4786-99E2-BB1EA3CD672E} = {A607B4C9-078C-4401-9BBB-82D9507FA2FB}
+		{62491858-54A2-4A10-B4C1-004FD06D6884} = {6AF8584B-9B2D-4C06-B2F9-D4BDDCD9EE0C}
+		{31C15843-E808-4458-8C77-0CCC4F4CF3FD} = {CFDCC7D6-C870-4C8D-9293-AD42C9BC45F2}
+		{B411612F-93E6-4386-9796-2E047FF7B570} = {86ACE8D2-248D-441C-942D-92B2B5B63683}
+	EndGlobalSection
+EndGlobal
