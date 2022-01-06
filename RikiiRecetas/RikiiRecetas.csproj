@@ -623,6 +623,7 @@
     <AndroidAsset Include="Assets\fonts\Charmonman\Charmonman-Bold.ttf" />
     <AndroidAsset Include="Assets\fonts\Charmonman\Charmonman-Regular.ttf" />
     <AndroidAsset Include="Assets\lottie.json" />
+    <AndroidAsset Include="Assets\ignoreXamarin.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.60.1142.1\build\MonoAndroid80\Xamarin.GooglePlayServices.Basement.targets')" />
