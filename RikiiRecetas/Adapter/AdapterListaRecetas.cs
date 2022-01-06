@@ -101,14 +101,22 @@ namespace RikiiRecetas.Adapter
             miholder.lblDificultadReceta.Typeface = fontRegular;
             miholder.lblTiempoReceta.Typeface = fontRegular;
             miholder.imgRecetaFavoritaSeleccionada.Visibility = ViewStates.Invisible;
-            var existeReceta = DataManager.RealmInstance.All<RecetaFavorita>().Where(x => x.id == receta.id && x.pais == receta.pais).FirstOrDefault();
-            if (existeReceta != null)
+            var realm = DataManager.RealmInstance;
+            if (realm == null)
             {
-                if (existeReceta.isFavorita)
+                return;
+            }
+            else {
+                var existeReceta = DataManager.RealmInstance.All<RecetaFavorita>().Where(x => x.id == receta.id && x.pais == receta.pais).FirstOrDefault();
+                if (existeReceta != null)
                 {
-                    miholder.imgRecetaFavoritaSeleccionada.Visibility = ViewStates.Visible;
+                    if (existeReceta.isFavorita)
+                    {
+                        miholder.imgRecetaFavoritaSeleccionada.Visibility = ViewStates.Visible;
+                    }
                 }
             }
+            
         }
 
         /// <summary>

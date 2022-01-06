@@ -41,11 +41,6 @@
   <dimen name="recycler_margin_vertical">16dp</dimen>
   <dimen name="recycler_margin_horizontal">16dp</dimen>
 
-  <!--ExpandableListview-->
-  <dimen name="recycler_margin_vertical">16dp</dimen>
-  <dimen name="recycler_margin_horizontal">16dp</dimen>
-
-
 
   <!--GAPS BETWEEN FIELDS-->
   <dimen name="gap_x_small">8dp</dimen>

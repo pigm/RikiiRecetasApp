@@ -1,0 +1,4 @@
+resources;/Users/pablogarrido/Desktop/Repositorios/Xamarin/recetas/cl.Common.RikiiRecetas.Utils/obj/Debug/lp/0/jl/res/values/strings.xml
+resources;obj/Debug/res/values/strings.xml
+string;/Users/pablogarrido/Desktop/Repositorios/Xamarin/recetas/cl.Common.RikiiRecetas.Utils/obj/Debug/lp/0/jl/res/values/strings.xml
+string;obj/Debug/res/values/strings.xml

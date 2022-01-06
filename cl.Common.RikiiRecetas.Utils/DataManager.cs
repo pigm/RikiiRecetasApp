@@ -69,7 +69,7 @@ namespace cl.Common.RikiiRecetas.Utils
                     }
                     catch
                     {
-                        realm = Realm.GetInstance();
+                        //realm = Realm.GetInstance();
                     }
                 }
                 return realm;
